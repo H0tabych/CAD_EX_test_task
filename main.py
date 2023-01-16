@@ -145,5 +145,5 @@ if __name__ == '__main__':
                   tuple(uniform(1, 10) for _ in range(dim_space))) for _ in range(amount)]
     output(pi/4, lines)
 
-    ellipse = [Ellipse(uniform(1, 10), uniform(1, 10)) for _ in range(10)]
+    ellipse = [Ellipse(uniform(1, 10), uniform(1, 10)) for _ in range(amount)]
     output(pi/4, ellipse)
